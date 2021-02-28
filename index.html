@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/style.css" />
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=1032f73f-dda8-4cdc-8307-39c0083f7e93&lang=ru_RU"
+      type="text/javascript"
+    ></script>
+    <script src="dist/bundle.js"></script>
     <title>Document</title>
   </head>
 
@@ -88,18 +93,55 @@
           <h5>Lorem ipsum dolor sit amet event landing template</h5>
         </section>
         <section class="team-container__team-panel">
-            <picture><img src="./dist//image/team1.png" alt="team-mate-1"></picture>
-            <picture><img src="./dist//image/team2.png" alt="team-mate-2"></picture>
-            <picture><img src="./dist//image/team3.png" alt="team-mate-3"></picture>
-            <picture><img src="./dist//image/team4.png" alt="team-mate-4"></picture>
-            <picture><img src="./dist//image/team5.png" alt="team-mate-5"></picture>
-            <picture><img src="./dist//image/team6.png" alt="team-mate-1"></picture>
+          <picture
+            ><img src="./dist//image/team1.png" alt="team-mate-1"
+          /></picture>
+          <picture
+            ><img src="./dist//image/team2.png" alt="team-mate-2"
+          /></picture>
+          <picture
+            ><img src="./dist//image/team3.png" alt="team-mate-3"
+          /></picture>
+          <picture
+            ><img src="./dist//image/team4.png" alt="team-mate-4"
+          /></picture>
+          <picture
+            ><img src="./dist//image/team5.png" alt="team-mate-5"
+          /></picture>
+          <picture
+            ><img src="./dist//image/team6.png" alt="team-mate-1"
+          /></picture>
         </section>
       </section>
       <section class="feedback-container">
-          
+        <section class="feedback-container__form">
+          <form id="feedback" action="#" method="POST">
+            <input type="text" placeholder="Name*" />
+            <input type="text" placeholder="Subject*" />
+            <input type="email" placeholder="E-mail*" />
+            <textarea form="feedback" placeholder="Message*"></textarea>
+            <input type="submit" value="SEND MESSAGE" />
+          </form>
+        </section>
+        <section class="feedback-container__map">
+          <section class="feedback-container__map__adresses">
+            <section>
+              <p>Adress line 1</p>
+              <p>Adress line 1</p>
+              <p>Phone: +548 945645</p>
+              <p>Fax: +456456 54546</p>
+            </section>
+            <section>
+              <p>Web: www.designagency.net</p>
+              <p>E-mail: info@designagency.net</p>
+            </section>
+          </section>
+          <section
+            id="map"
+            class="feedback-container__map__map-field"
+          ></section>
+        </section>
       </section>
-    </div>  
-    <script src="dist/bundle.js"></script>
+    </div>
   </body>
 </html>
