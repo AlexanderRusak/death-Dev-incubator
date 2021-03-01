@@ -419,3 +419,86 @@ footer {
         footer .social-networks ul li:hover a i {
           color: #000000; }
 
+@media screen and (max-width: 1404px) {
+  /*   .main-container {
+    height: 6340px;    
+  } */
+  .contact-container .contact-container__header h2 {
+    font-size: 38px; }
+  .featured-works-container .featured-works-panel {
+    width: 82%;
+    justify-content: center;
+    height: auto; }
+    .featured-works-container .featured-works-panel picture {
+      transform: scale(0.9);
+      justify-content: center; }
+  .team-container .team-container__team-panel {
+    width: 83%;
+    height: auto;
+    justify-content: center; }
+    .team-container .team-container__team-panel picture {
+      transform: scale(0.9); }
+  .feedback {
+    height: auto; }
+    .feedback .feedback-container {
+      margin-bottom: 100px;
+      flex-wrap: wrap; }
+      .feedback .feedback-container .feedback-container__form,
+      .feedback .feedback-container .feedback-container__map {
+        width: 70% !important;
+        margin-top: 60px; } }
+
+@media screen and (max-width: 992px) {
+  .contact-container .contact-container__header h2 {
+    font-size: 28px;
+    line-height: 32px;
+    padding: 0 !important;
+    text-align: center; }
+  .contact-container .contact-container__juice-section {
+    right: 2%;
+    bottom: 15px; }
+  .about-container .about-container__header {
+    margin-top: 80px; }
+    .about-container .about-container__header h2 {
+      font-size: 24px;
+      margin: 0; }
+    .about-container .about-container__header h5 {
+      font-size: 14px; }
+  .about-container .about-container__info {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center; }
+    .about-container .about-container__info .about-container__info__description .about-container__info__description__article h4,
+    .about-container .about-container__info .about-container__info__description .about-container__info__description__article h5,
+    .about-container .about-container__info .about-container__info__description .about-container__info__description__article p {
+      text-align: center; }
+    .about-container .about-container__info .about-container__info__description .about-container__info__description__article h4 {
+      font-size: 14px; }
+    .about-container .about-container__info .about-container__info__description .about-container__info__description__article h5 {
+      font-size: 12px;
+      font-weight: 600; }
+    .about-container .about-container__info .about-container__info__description .about-container__info__description__article p {
+      font-size: 12px;
+      line-height: 17px;
+      font-weight: 500; }
+  .featured-works-container .featured-works-container__header h2 {
+    font-size: 24px;
+    margin: 0; }
+  .featured-works-container .featured-works-container__header h5 {
+    font-size: 14px; }
+  .team-container .team-container__header h2 {
+    font-size: 24px;
+    margin: 0; }
+  .team-container .team-container__header h5 {
+    font-size: 14px; }
+  .feedback {
+    height: auto; }
+    .feedback .feedback-container {
+      margin-bottom: 100px;
+      flex-wrap: wrap; }
+      .feedback .feedback-container .feedback-container__form,
+      .feedback .feedback-container .feedback-container__map {
+        width: 94% !important;
+        margin-top: 60px; } }
+

@@ -448,3 +448,137 @@ footer {
     }
   }
 }
+@media screen and (max-width: 1404px) {
+  /*   .main-container {
+    height: 6340px;    
+  } */
+  .contact-container {
+    .contact-container__header {
+      h2 {
+        font-size: 38px;
+      }
+    }
+  }
+  .featured-works-container {
+    .featured-works-panel {
+      width: 82%;
+      justify-content: center;
+      height: auto;
+      picture {
+        transform: scale(0.9);
+        justify-content: center;
+      }
+    }
+  }
+  .team-container {
+    .team-container__team-panel {
+      width: 83%;
+      height: auto;
+      justify-content: center;
+      picture {
+        transform: scale(0.9);
+      }
+    }
+  }
+  .feedback {
+    height: auto;
+    .feedback-container {
+      margin-bottom: 100px;
+      flex-wrap: wrap;
+      .feedback-container__form,
+      .feedback-container__map {
+        width: 70% !important;
+        margin-top: 60px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .contact-container {
+    .contact-container__header {
+      h2 {
+        font-size: 28px;
+        line-height: 32px;
+        padding: 0 !important;
+        text-align: center;
+      }
+    }
+    .contact-container__juice-section {
+      right: 2%;
+      bottom: 15px;
+    }
+  }
+  .about-container {
+    .about-container__header {
+      margin-top: 80px;
+      h2 {
+        font-size: 24px;
+        margin: 0;
+      }
+      h5 {
+        font-size: 14px;
+      }
+    }
+    .about-container__info {
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+      .about-container__info__description {
+        .about-container__info__description__article {
+          h4,
+          h5,
+          p {
+            text-align: center;
+          }
+          h4 {
+            font-size: 14px;
+          }
+          h5{
+            font-size: 12px;
+            font-weight: 600;
+          }
+          p {
+            font-size: 12px;
+            line-height: 17px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  .featured-works-container {
+    .featured-works-container__header {
+      h2 {
+        font-size: 24px;
+        margin: 0;
+      }
+      h5 {
+        font-size: 14px;
+      }
+    }
+  }
+  .team-container {
+    .team-container__header {
+      h2 {
+        font-size: 24px;
+        margin: 0;
+      }
+      h5 {
+        font-size: 14px;
+      }
+    }
+  }
+  .feedback {
+    height: auto;
+    .feedback-container {
+      margin-bottom: 100px;
+      flex-wrap: wrap;
+      .feedback-container__form,
+      .feedback-container__map {
+        width: 94% !important;
+        margin-top: 60px;
+      }
+    }
+  }
+}
