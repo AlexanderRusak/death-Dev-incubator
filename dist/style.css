@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap);
 html {
   scroll-behavior: smooth; }
 
@@ -279,9 +280,53 @@ body {
     margin-right: 2px;
     height: 907px;
     margin-bottom: 50px; }
-    .team-container .team-container__team-panel picture {
+    .team-container .team-container__team-panel picture .team-container__team-panel__teammate-label {
+      display: none; }
+    .team-container .team-container__team-panel picture:hover {
       width: 370px;
       height: 440px; }
+      .team-container .team-container__team-panel picture:hover .team-container__team-panel__teammate-label {
+        display: block;
+        width: 335px;
+        height: 241px;
+        filter: drop-shadow(2.735px 6.444px 8px rgba(20, 20, 21, 0.18));
+        background-color: #6df6eb;
+        position: absolute;
+        margin-top: 184px;
+        margin-left: 18px; }
+        .team-container .team-container__team-panel picture:hover .team-container__team-panel__teammate-label h5 {
+          margin-bottom: 0px;
+          margin-left: 39px;
+          margin-top: 37px;
+          font-size: 21px;
+          letter-spacing: 0.4px;
+          text-transform: uppercase;
+          font-family: "Merriweather", serif; }
+          .team-container .team-container__team-panel picture:hover .team-container__team-panel__teammate-label h5 i {
+            font-size: 16px;
+            padding-left: 9px;
+            letter-spacing: 0.5px;
+            text-transform: capitalize; }
+        .team-container .team-container__team-panel picture:hover .team-container__team-panel__teammate-label p {
+          margin-top: 17px;
+          font-family: "Raleway", sans-serif;
+          display: inline-block;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0.27px;
+          width: 83%;
+          padding-left: 38px; }
+        .team-container .team-container__team-panel picture:hover .team-container__team-panel__teammate-label .team-container__team-panel__teammate-label__contacts ul {
+          display: flex;
+          padding-left: 39px;
+          justify-content: space-between;
+          width: 87px;
+          flex-direction: row;
+          list-style: none; }
+          .team-container .team-container__team-panel picture:hover .team-container__team-panel__teammate-label .team-container__team-panel__teammate-label__contacts ul li a i {
+            font-size: 14px;
+            color: #000000; }
 
 .feedback {
   background-color: rgba(255, 255, 255, 0.67);
