@@ -37,7 +37,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scr
   \*******************************/
 /***/ (() => {
 
-eval("ymaps.ready(init);\r\nvar myMap, bigMap = false;\r\n\r\nfunction init() {\r\n\r\n    myMap = new ymaps.Map(\"map\", {\r\n        center: [53.90, 27.57],\r\n        zoom: 10  \r\n    });\r\n}  \n\n//# sourceURL=webpack://fdeath-dev-incubator/./src/scripts/script.js?");
+eval("ymaps.ready(init);\r\nvar myMap, bigMap = false;\r\n\r\nfunction init() {\r\n\r\n    myMap = new ymaps.Map(\"map\", {\r\n        center: [53.90, 27.57],\r\n        zoom: 10\r\n    });\r\n}\r\n\r\n\n\n//# sourceURL=webpack://fdeath-dev-incubator/./src/scripts/script.js?");
 
 /***/ })
 
