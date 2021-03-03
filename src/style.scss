@@ -286,6 +286,20 @@ body {
       }
     }
     picture:hover {
+      //hover
+      display: block;
+      transition: all 1s ease;
+
+      .team-container__team-panel__triangle {
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-style: solid;
+        border-width: 0 21px 37px 21px;
+        border-color: transparent transparent #71f6eb transparent;
+        margin-top: 165px;
+        margin-left: 29px;
+      }
       .team-container__team-panel__teammate-label {
         display: block;
         width: 335px;
