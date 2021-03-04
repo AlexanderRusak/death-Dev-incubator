@@ -285,16 +285,20 @@ body {
     margin-right: 2px;
     height: 907px;
     margin-bottom: 50px;
-    picture {
+    div {
       .team-container__team-panel__teammate-label {
         display: none;
       }
+      .team-container__team-panel__triangle {
+        display: none;
+      }
     }
-    picture:hover {
+    div:hover {
       //hover
       display: inline-block;
       .team-container__team-panel__triangle {
-        transition: all 0.3s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        display: inline-block;
         width: 0;
         height: 0;
         position: absolute;
@@ -457,14 +461,14 @@ body {
       .feedback-container__map__adresses {
         margin-top: 36px;
         padding-left: 30px;
-        section > p {
+        div > p {
           font-size: 0.9375rem;
           line-height: 0.625rem;
           color: #ffffff;
           font-weight: 400;
           font-family: "Raleway";
         }
-        section:first-child {
+        div:first-child {
           margin-bottom: 36px;
         }
       }
@@ -791,7 +795,7 @@ footer {
       justify-content: space-between;
       margin-top: 0px;
       height: auto;
-      picture {
+      div {
         margin-top: 20px;
         width: 296px;
         height: 352px;
@@ -964,7 +968,7 @@ footer {
       justify-content: space-between;
       margin-top: 0;
       margin-bottom: 30px;
-      picture {
+      div {
         width: 222px;
         height: 266px;
         img {
@@ -1147,7 +1151,7 @@ footer {
       margin-top: 0;
       margin-bottom: 30px;
       height: auto;
-      picture {
+      div {
         margin-top: 10px;
         width: 222px;
         height: 266px;
