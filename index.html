@@ -1,17 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=1032f73f-dda8-4cdc-8307-39c0083f7e93&lang=ru_RU"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./dist/main.css">
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <h1>1232323</h1>
-    <script type="text/javascript" src="dist/bundle.js"></script>
-</body>
+  <body>
+    <div class="main-container">
+      <div class="contact-container">
+        <section class="logo">
+          <h3 class="logo__name">
+            SH<i class="logo__logo__name__marked">O</i>PNO
+          </h3>
+        </section>
+        <section class="contact-container__header">
+          <h2>Say Hello to <span> SHOPNO! </span></h2>
+          <h2><span>Agency</span>CORPORATE SHOPNO Theme</h2>
+        </section>
+        <a href="#contacts" class="contact-container__button-contact-us"
+          >CONTACT US</a
+        >
+        <figure class="contact-container__juice-section"></figure>
+      </div>
+      <div class="about-container">
+        <section class="about-container__header">
+          <h2>ABOUT US</h2>
+          <h5>Lorem ipsum dolor sit amet event landing template</h5>
+        </section>
+        <div class="about-container__info">
+          <figure class="about-container__info__image"></figure>
+          <div class="about-container__info__description">
+            <section class="about-container__info__description__article">
+              <h4>We Actually Do amazing works</h4>
+              <p>
+                A visual approach is an approach to a runway at an airport
+                consucted under instrument flight rules. The pilot must at all
+                times have either the airport or the preceding aircraft in
+                approach correct sight. conducted under instrument flight rules.
+                The pilot must at all times.
+              </p>
+              <p>
+                Preceding aircraft in approach correct sight. conducted under
+                instrumnet flight rules.
+              </p>
+            </section>
+            <section class="about-container__info__description__article">
+              <h5>Why we are the great?</h5>
+              <p>
+                A visual approach is an approach to a runway at an airport
+                consucted under instrument flight rules.
+              </p>
+              <p>The preceding aircraft in approach correct sight.</p>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="featured-works-container">
+        <section class="featured-works-container__header">
+          <h2>featured works</h2>
+          <h5>Lorem ipsum dolor sit amet event landing template</h5>
+        </section>
+        <div class="featured-works-panel">
+          <a
+            href="./dist//image/banner1.png"
+            data-width="740"
+            data-height="718"
+            data-fancybox="gallery"
+            ><img src="./dist//image/banner1.png" alt="banner1"
+          /></a>
+          <a
+            href="./dist//image/banner2.png"
+            data-width="740"
+            data-height="718"
+            data-fancybox="gallery"
+            ><img src="./dist//image/banner2.png" alt="banner2"
+          /></a>
+          <a
+            href="./dist//image/banner3.png"
+            data-width="740"
+            data-height="718"
+            data-fancybox="gallery"
+            ><img src="./dist//image/banner3.png" alt="banner3"
+          /></a>
+          <a
+            href="./dist//image/banner4.png"
+            data-width="740"
+            data-height="718"
+            data-fancybox="gallery"
+            ><img src="./dist//image/banner4.png" alt="banner4"
+          /></a>
+          <a
+            href="./dist//image/banner5.png"
+            data-width="740"
+            data-height="718"
+            data-fancybox="gallery"
+            ><img src="./dist//image/banner5.png" alt="banner5"
+          /></a>
+          <a
+            href="./dist//image/banner6.png"
+            data-width="740"
+            data-height="718"
+            data-fancybox="gallery"
+            ><img src="./dist//image/banner6.png" alt="banner6"
+          /></a>
+        </div>
+      </div>
+      <div class="team-container">
+        <section class="team-container__header">
+          <h2>small team</h2>
+          <h5>Lorem ipsum dolor sit amet event landing template</h5>
+        </section>
+        <section class="team-container__team-panel">
+          <div>
+            <div class="team-container__team-panel__triangle"></div>
+            <div class="team-container__team-panel__teammate-label">
+              <h5>AL RAYHAN<i>/ UI Designer</i></h5>
+              <p>
+                Lorem Ipsum is not simply is an action designer random text it
+                has roots in a piece
+              </p>
+              <div class="team-container__team-panel__teammate-label__contacts">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <img src="./dist//image/team1.png" alt="team-mate-1" />
+          </div>
+          <div>
+            <div class="team-container__team-panel__triangle"></div>
+            <section class="team-container__team-panel__teammate-label">
+              <h5>AL RAYHAN<i>/ UI Designer</i></h5>
+              <p>
+                Lorem Ipsum is not simply is an action designer random text it
+                has roots in a piece
+              </p>
+              <div class="team-container__team-panel__teammate-label__contacts">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <img src="./dist//image/team2.png" alt="team-mate-2" />
+          </div>
+          <div>
+            <div class="team-container__team-panel__triangle"></div>
+            <section class="team-container__team-panel__teammate-label">
+              <h5>AL RAYHAN<i>/ UI Designer</i></h5>
+              <p>
+                Lorem Ipsum is not simply is an action designer random text it
+                has roots in a piece
+              </p>
+              <div class="team-container__team-panel__teammate-label__contacts">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <img src="./dist//image/team3.png" alt="team-mate-3" />
+          </div>
+          <div>
+            <div class="team-container__team-panel__triangle"></div>
+            <section class="team-container__team-panel__teammate-label">
+              <h5>AL RAYHAN<i>/ UI Designer</i></h5>
+              <p>
+                Lorem Ipsum is not simply is an action designer random text it
+                has roots in a piece
+              </p>
+              <div class="team-container__team-panel__teammate-label__contacts">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="team-container__team-panel__teammate-label">
+              <h5>AL RAYHAN<i>/ UI Designer</i></h5>
+              <p>
+                Lorem Ipsum is not simply is an action designer random text it
+                has roots in a piece
+              </p>
+              <div class="team-container__team-panel__teammate-label__contacts">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <img src="./dist//image/team4.png" alt="team-mate-4" />
+          </div>
+          <div>
+            <div class="team-container__team-panel__triangle"></div>
+            <section class="team-container__team-panel__teammate-label">
+              <h5>AL RAYHAN<i>/ UI Designer</i></h5>
+              <p>
+                Lorem Ipsum is not simply is an action designer random text it
+                has roots in a piece
+              </p>
+              <div class="team-container__team-panel__teammate-label__contacts">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <img src="./dist//image/team5.png" alt="team-mate-5" />
+          </div>
+          <div>
+            <div class="team-container__team-panel__triangle"></div>
+            <section class="team-container__team-panel__teammate-label">
+              <h5>AL RAYHAN<i>/ UI Designer</i></h5>
+              <p>
+                Lorem Ipsum is not simply is an action designer random text it
+                has roots in a piece
+              </p>
+              <div class="team-container__team-panel__teammate-label__contacts">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <img src="./dist//image/team6.png" alt="team-mate-1" />
+          </div>
+        </section>
+      </div>
+      <div id="contacts" class="feedback">
+        <div class="feedback-container">
+          <div class="feedback-container__form">
+            <form id="feedback" action="#" method="POST">
+              <input type="text" placeholder="Name*" />
+              <input type="text" placeholder="Subject*" />
+              <input type="email" placeholder="E-mail*" />
+              <textarea form="feedback" placeholder="Message*"></textarea>
+              <input type="submit" value="SEND MESSAGE" />
+            </form>
+          </div>
+          <div class="feedback-container__map">
+            <div class="feedback-container__map__adresses">
+              <div>
+                <p>Adress line 1</p>
+                <p>Adress line 1</p>
+                <p>Phone: +548 945645</p>
+                <p>Fax: +456456 54546</p>
+              </div>
+              <div>
+                <p>Web: www.designagency.net</p>
+                <p>E-mail: info@designagency.net</p>
+              </div>
+            </div>
+            <div id="map" class="feedback-container__map__map-field"></div>
+          </div>
+        </div>
+      </div>
 
+      <footer>
+        <h5>Follow us</h5>
+        <div class="social-networks">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="dist/bundle.js"></script>
+  </body>
 </html>
